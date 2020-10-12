@@ -1,0 +1,58 @@
+/*
+This allows me to change any general properties related to everything within body.
+*/
+body {
+  background-color: gray;
+}
+/*
+This allows me to change any general properties related to everything within the whole page.
+*/
+html {
+  text-align:center;
+  background-color:black;
+  padding: 15px 30px 15px 30px;
+  font-family: "Arial";
+  list-style-position: inside;
+}
+/*
+This allows me to change any general properties related to everything within navigation at the top.
+*/
+nav {
+  padding: 0 0 30px 0;
+  font-size: 25px;
+}
+/*
+This allows me to change any general properties directly related to the contents within the navigation.
+*/
+nav > a {
+  margin: 0 30px 0 30px;
+}
+/*
+This allows me to change any general properties related to everything related to the image being drawn in
+*/
+img {
+  height: 400px;
+  width:auto;
+}
+/*
+This allows me to change any general properties only within the header.
+*/
+header {
+  font-family: "Georgia";
+}
+/*
+This allows me to change any general properties specific to the h1 header declaration.
+*/
+header > div > h1 {
+  font-size: 60px;
+  margin: 10px 0 0 0;
+  color:red;
+}
+
+/*
+Pseudo-classing the links to respond do to the state they are in.
+*/
+a:link {color:blue}
+a:visited{color:red}
+a:hover{color:black}
+a:active{color:green}
