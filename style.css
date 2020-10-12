@@ -48,7 +48,12 @@ header > div > h1 {
   margin: 10px 0 0 0;
   color:red;
 }
-
+/*
+Making the text more centered
+*/
+p{
+  padding: 0 250px 0 250px;
+}
 /*
 Pseudo-classing the links to respond do to the state they are in.
 */
