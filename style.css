@@ -52,7 +52,7 @@ header > div > h1 {
 Making the text more centered
 */
 p{
-  padding: 0 250px 0 250px;
+  padding: 0 600px 0 600px;
 }
 /*
 Pseudo-classing the links to respond do to the state they are in.
