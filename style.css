@@ -30,6 +30,12 @@ body {
     padding-right: 0px;
   }
   /*
+  Allows me to change settings related to all links
+  */
+  a {
+    text-decoration: none;
+  }
+  /*
   This allows me to change any general properties related to everything related to the image being drawn in
   */
   
@@ -103,6 +109,7 @@ body {
     padding: 10px 0 10px 0;
     margin: 0 100px;
   }
+
   /*  Projects CSS */
   #ProjectList ul{
     display: flex;
@@ -118,6 +125,9 @@ body {
     border-radius: 50%;
     margin: 0 40%;
     padding: 25px 0;
+  }
+  #ProjectOne ul {
+    list-style:none;
   }
   /*  Projects CSS */
 
