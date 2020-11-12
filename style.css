@@ -1,0 +1,159 @@
+/*
+This allows me to change any general properties related to everything within body.
+*/
+body {
+    background-color: gray;
+  }
+  /*
+  This allows me to change any general properties related to everything within the whole page.
+  */
+  html {
+    text-align:center;
+    font-family: "Arial";
+    list-style-position: inside;
+  }
+  /*
+  This allows me to change any general properties related to everything within navigation at the top.
+  */
+  nav {
+    padding: 30px 0 30px 0;
+    font-size: 25px;
+  }
+  /*
+  This allows me to change any general properties directly related to the contents within the navigation.
+  */
+  nav > a {
+    padding: 0 30px 0 30px;
+    text-decoration: none;
+  }
+  header nav:last-child {
+    padding-right: 0px;
+  }
+  /*
+  This allows me to change any general properties related to everything related to the image being drawn in
+  */
+  
+  /*
+  This allows me to change any general properties only within the header.
+  */
+  header {
+    font-family: "Georgia";
+  }
+  /*
+  This allows me to change any general properties specific to the h1 header declaration.
+  */
+  header > div > h1 {
+    font-size: 60px;
+    margin: 10px 0 0 0;
+    color:red;
+  }
+  /*
+  Making the text more centered
+  */
+  p{
+    padding: 0 20% 0 20%;
+  }
+  /*
+  Pseudo-classing the links to respond do to the state they are in.
+  */
+  a:link {color:blue}
+  a:visited{color:red}
+  a:hover{color:black}
+  a:active{color:green}
+
+  /*
+  Addtional CSS code after prep work
+  */
+  .group {
+      display: flex;
+      flex-direction: column;
+  }
+  .item {
+      flex: 1;
+      padding: 10px 0 0 0;
+  }
+  .item-2 {
+      flex:1;
+      padding: 20px 50px 0 50px;
+  }
+
+  .group img {
+    width: 100%;
+    
+  }
+  img {
+    max-height: 400px;
+    width: auto;
+  }
+
+  #name {
+    padding: 0 0 10px 0;
+  }
+
+  #email {
+    padding: 0 0 10px 3px;
+  }
+
+  #message {
+    padding: 0 10px 10px 0;
+  }
+
+  #formspree {
+    background-color: darkgray;
+    padding: 10px 0 10px 0;
+    margin: 0 100px;
+  }
+  /*  Projects CSS */
+  #ProjectList ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+  }
+  #ProjectList ul li {
+    padding-right: 50px;
+  }
+  #ProjectOne h2{
+    background-color: lightgray;
+    border-radius: 50%;
+    margin: 0 40%;
+    padding: 25px 0;
+  }
+  /*  Projects CSS */
+
+  @media all and (min-width: 800px) {
+    section {
+        padding: 0 5%;
+    }
+    .group {
+        flex-direction: row;
+        padding: 0 0;
+    }
+    .item {
+      flex: 2;
+      padding: 150px 0 0 0;
+    }
+    .item-2 {
+        flex:2;
+        padding: 20px 50px 0 50px;
+    }
+    .item-2 p{
+      padding: 0 0 0 0;
+    }
+    header div {
+      display: flex;
+      justify-content: space-between;
+    }
+    header h1 {
+      padding-left: 40px;
+    }
+    
+   
+    
+  }
+  
+  
+
+
+
+  
