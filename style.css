@@ -125,7 +125,7 @@ body {
   #ProjectList ul li {
     padding-right: 50px;
   }
-  #ProjectOne > h2, #ProjectTwo > h2{
+  #ProjectOne > h2, #ProjectTwo > h2, #ProjectThree > h2, #ProjectFour > h2{
     background-color: lightgray;
     border-radius: 50%;
     margin: 0 40%;
